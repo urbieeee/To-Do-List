@@ -1,0 +1,41 @@
+.removeButton {
+    background-color: red;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.toggleButton {
+    background-color: rgb(12, 104, 0);
+    border-style: none;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.toggleButton:hover {
+    background-color: hsl(121, 100%, 70%);
+    border-style: none;
+    width: 25px;
+    height: 25px;
+}
+
+.toggleButton:active {
+    background-color: hsl(121, 100%, 50%);
+    border-style: none;
+    width: 25px;
+    height: 25px;
+}
+
+.newTaskButton {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    padding: 11px;
+    border-radius: 5px;
+}

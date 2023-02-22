@@ -1,0 +1,10 @@
+@media(max-width: 767px) {
+    .main {
+        flex-basis: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
