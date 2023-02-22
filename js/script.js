@@ -23,7 +23,7 @@
             <span class="${task.done ? " js__content--done tasks_done " : ""}"> 
             ${task.content}
             </span>
-            <button class="js-removeButton removeButton button">
+            <button class="js-removeButton removeButton button">X
               </button>
              </li>
              `

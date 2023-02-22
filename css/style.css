@@ -14,10 +14,11 @@ html {
 .body {
     font-family: 'Lato', sans-serif, 'Libre Franklin';
     max-width: 100%;
-    background-color: grey;
+    background-color: #ccc;
     font-size: 20px;
     padding: 30px;
     margin: 10px;
+    word-break: inherit
 }
 
 .main {
@@ -27,15 +28,12 @@ html {
     flex-direction: column;
 }
 
-
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 15px;
     padding: 10px;
-
 }
-
 
 .tasksList {
     display: flex;
@@ -43,4 +41,3 @@ html {
     padding: 0px;
     margin: 0px;
 }
-
