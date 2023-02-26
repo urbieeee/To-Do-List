@@ -1,13 +1,5 @@
 {
   const tasks = [
-    {
-      content: 'Zrobic prace domowa',
-      done: true,
-    },
-    {
-      content: 'Zdobyc prace w it',
-      done: false,
-    },
   ]
 
   const render = () => {
@@ -18,12 +10,12 @@
             <li 
             class="js__listClass  tasks__item">
             <button class="js-toggleButton toggleButton">
-            ${task.done ? "ok" : ""}
+            ${task.done ? "✔️" : ""}
             </button>
             <span class="${task.done ? " js__content--done tasks_done " : ""}"> 
             ${task.content}
             </span>
-            <button class="js-removeButton removeButton button">X
+            <button class="js-removeButton removeButton button">🗑
               </button>
              </li>
              `

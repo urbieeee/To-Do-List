@@ -5,9 +5,11 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    transition: 1s;
 }
 .removeButton:hover{
     background-color: rgb(255, 202, 202);
+    transform:scale(1.2);
 }
 .removeButton:active{
     background-color: coral;
@@ -20,6 +22,7 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    transition: 1s;
 }
 
 .toggleButton:hover {
@@ -27,6 +30,7 @@
     border-style: none;
     width: 25px;
     height: 25px;
+    transform: scale(1.5);
 }
 
 .toggleButton:active {
@@ -43,4 +47,9 @@
     border-style: none;
     padding: 11px;
     border-radius: 5px;
+    transition: 1s;
+}
+.newTaskButton:hover {
+    background-color: hsl(180, 100%, 35%);
+    transform: scale(1.2);
 }
