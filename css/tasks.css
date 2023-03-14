@@ -11,3 +11,6 @@
 .tasks_done {
     text-decoration: line-through;
 }
+.tasks__item--done{
+    display: none;
+}

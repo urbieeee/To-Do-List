@@ -5,7 +5,7 @@
     width: 30px;
     height: 30px;
     padding: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 .removeButton:hover{
     background-color: rgb(255, 202, 202);
@@ -21,20 +21,20 @@
     color: white;
     width: 30px;
     height: 30px;
-    padding: 0;
-    transition: 1s;
+    transition: 0.5s;
+    margin-bottom: 3px;
 }
 
 .toggleButton:hover {
-    background-color: hsl(121, 100%, 70%);
+    background-color: hsl(121, 100%, 38%);
     border-style: none;
-    width: 25px;
-    height: 25px;
-    transform: scale(1.5);
+    width: 30px;
+    height: 30px;
+    transform: scale(1.2);
 }
 
 .toggleButton:active {
-    background-color: hsl(121, 100%, 50%);
+    background-color: black;
     border-style: none;
     width: 25px;
     height: 25px;
@@ -51,5 +51,14 @@
 }
 .newTaskButton:hover {
     background-color: hsl(180, 100%, 35%);
-    transform: scale(1.2);
+    transform: scale(1.05);
+}
+.button_hide{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.forminput{
+    margin: 0 auto;
+    padding-left: 5px;
 }

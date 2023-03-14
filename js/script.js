@@ -1,16 +1,15 @@
 {
-  const tasks = [
-  ]
+  let tasks = [];
 
   const render = () => {
-    let stringList = ""
+    let stringList = "";
 
     for (task of tasks) {
       stringList += `
             <li 
             class="js__listClass  tasks__item">
             <button class="js-toggleButton toggleButton">
-            ${task.done ? "✔️" : ""}
+            ${task.done ? "✔" : ""}
             </button>
             <span class="${task.done ? " js__content--done tasks_done " : ""}"> 
             ${task.content}
