@@ -58,7 +58,7 @@
     flex-direction: row;
     margin: 0;
 }
-.forminput{
-    margin: 0 auto;
+.formInput{
+    font-size: 20px;
     padding-left: 5px;
 }
